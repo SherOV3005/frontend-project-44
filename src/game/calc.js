@@ -22,7 +22,7 @@ const calc = (num1, num2, sign) => {
 const logicGame = () => {
   const num1 = getRandomNumber(1, 50);
   const num2 = getRandomNumber(1, 50);
-  const index = getRandomNumber(0, signArray.length - 1);
+  const index = getRandomNumber(0, signArray.length);
   const sign = signArray[index];
   const question = `${num1} ${sign} ${num2}`;
   const answer = calc(num1, num2, sign);

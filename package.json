@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/SherOV3005/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SherOV3005/frontend-project-44/actions)",
+  "description": "Игры разума - набор из пяти игр, которые позволяют вам потренировать свой мозг",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

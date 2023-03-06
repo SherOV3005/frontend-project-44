@@ -2,7 +2,10 @@
 [![Actions Status](https://github.com/SherOV3005/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/SherOV3005/frontend-project-44/actions)
 # Игры разума
 
-Это набор из пяти игр для тренировки мозга. Каждая игра состоит из трех вопросов. После трех правильных ответов подряд считается, что игра успешно пройдена. Если при ответе на вопрос допускается ошибка, то игра завершается.
+> Это набор из пяти игр для тренировки мозга. 
+> Каждая игра состоит из трех вопросов. 
+> После трех правильных ответов подряд считается, что игра успешно пройдена. 
+> Если при ответе на вопрос допускается ошибка, то игра завершается.
 
 # Представлены игры:
 
@@ -30,39 +33,43 @@ npm installnpm link
 
 # Проверка на четность
 
-## Запуск игры: 
+Запуск игры: 
 
-- brain-even
-
-
-<p><a href="https://asciinema.org/a/QMvcRv8ogUufnIy2onkWyVI6H></a></p>
+## brain-even
 
 
-Калькулятор
+[https://asciinema.org/a/QMvcRv8ogUufnIy2onkWyVI6H]
 
-Запуск игры:
-brain-calc
 
-https://asciinema.org/a/9yJjt6EikC6c7G3ogvMgSP4Pc
-
-НОД
+# Калькулятор
 
 Запуск игры:
-brain-gcd
 
-https://asciinema.org/a/ejhyQ4octeLlyYIADuI6p8p63 
+## brain-calc
 
-Арифметическая прогрессия
+[https://asciinema.org/a/9yJjt6EikC6c7G3ogvMgSP4Pc]
+
+# НОД
 
 Запуск игры:
-brain-progression
+
+## brain-gcd
+
+[https://asciinema.org/a/ejhyQ4octeLlyYIADuI6p8p63]
+
+# Арифметическая прогрессия
+
+Запуск игры:
+
+## brain-progression
  
-https://asciinema.org/a/xlvn5rRYbh9RPboYf5QRkZEcw
+[https://asciinema.org/a/xlvn5rRYbh9RPboYf5QRkZEcw]
 
-Простое ли число?
+# Простое ли число?
 
 Запуск игры:
-brain-prime
 
-https://asciinema.org/a/Vd6C7Y29mMlrPEagzuTrPKG4T
+## brain-prime
+
+[https://asciinema.org/a/Vd6C7Y29mMlrPEagzuTrPKG4T]
 

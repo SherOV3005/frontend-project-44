@@ -19,7 +19,7 @@ const getCalc = (num1, num2, sign) => {
   }
 };
 
-const logicGame = () => {
+const beginGame = () => {
   const num1 = getRandomNumber(1, 50);
   const num2 = getRandomNumber(1, 50);
   const index = getRandomNumber(0, signArray.length);
@@ -30,5 +30,5 @@ const logicGame = () => {
 };
 
 export default () => {
-  getGame(planGame, logicGame);
+  getGame(planGame, beginGame);
 };

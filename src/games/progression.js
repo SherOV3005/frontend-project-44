@@ -4,22 +4,22 @@ import getRandomNumber from '../getRandom.js';
 
   const planeGame = 'What number is missing in the progression?';
 
-  const getProgression = (firstNum, lengthStep) => {
-  const progressionArr = [];
+  const getProgression = (firstNumber, lengthStep) => {
+  const progression = [];
   let i = 1;
   while(i <= 10){
-  progressionArr.push(firstNum);
-  firstNum = firstNum + lengthStep;
+  progression.push(firstNumber);
+  firstNumber = firstNumber + lengthStep;
   i = i + 1;
   }
-  return progressionArr;
+  return progression;
 }
 
-const logicGame = () => {
-  const firstNum = getRandomNumber(1, 10);
+  const beginGame = () => {
+  const firstNumber = getRandomNumber(1, 10);
   const lengthStep = getRandomNumber(1, 10);
   const unkownElement = getRandomNumber(0, 9);
-  const progressionQuestion = getProgression(firstNum, lengthStep);   
+  const progressionQuestion = getProgression(firstNumber, lengthStep);   
   const answer = progressionQuestion[unkownElement];
   progressionQuestion[unkownElement] = '..';
   const question = progressionQuestion;
@@ -27,5 +27,5 @@ const logicGame = () => {
 };
 
 export default () => {
-  getGame(planeGame, logicGame);
+  getGame(planeGame, beginGame);
 };

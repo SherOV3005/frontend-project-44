@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import beginGame from '../src/games/gcd.js'
+import generateRoundData from '../src/games/gcd.js'
 
-beginGame();
+generateRoundData();

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-import beginGame from '../src/games/prime.js'
+import generateRoundData from '../src/games/prime.js'
 
-beginGame();
+generateRoundData();

@@ -26,50 +26,61 @@
 git clone https://github.com/SherOV3005/frontend-project-44.git
 cd frontend-project-44
 make install
-npm installnpm link
+npm install
+npm link
 
 ```
 # Игры:
 
 # Проверка на четность
 
+Необходимо определить, является ли число чётным.
+
 Запуск игры: 
 
 ## brain-even
 
 
-[https://asciinema.org/a/QMvcRv8ogUufnIy2onkWyVI6H]
+[![asciicast](https://asciinema.org/a/QMvcRv8ogUufnIy2onkWyVI6H.svg)](https://asciinema.org/a/QMvcRv8ogUufnIy2onkWyVI6H)
 
 
 # Калькулятор
+
+Необходимо вычислить результат арифметических выражений (суммы, разности или произведение двух чисел).
 
 Запуск игры:
 
 ## brain-calc
 
-[https://asciinema.org/a/9yJjt6EikC6c7G3ogvMgSP4Pc]
+[![asciicast](https://asciinema.org/a/9yJjt6EikC6c7G3ogvMgSP4Pc.svg)](https://asciinema.org/a/9yJjt6EikC6c7G3ogvMgSP4Pc)
 
 # НОД
+
+Необходимо вычислить значение наибольшего общего делителя двух случайных чисел.
 
 Запуск игры:
 
 ## brain-gcd
 
-[https://asciinema.org/a/ejhyQ4octeLlyYIADuI6p8p63]
+[![asciicast](https://asciinema.org/a/ejhyQ4octeLlyYIADuI6p8p63.svg)](https://asciinema.org/a/ejhyQ4octeLlyYIADuI6p8p63)
 
 # Арифметическая прогрессия
+
+Необходимо определить, пропущенное число в арифметической прогрессии.
 
 Запуск игры:
 
 ## brain-progression
  
-[https://asciinema.org/a/xlvn5rRYbh9RPboYf5QRkZEcw]
+[![asciicast](https://asciinema.org/a/xlvn5rRYbh9RPboYf5QRkZEcw.svg)](https://asciinema.org/a/xlvn5rRYbh9RPboYf5QRkZEcw)
 
 # Простое ли число?
+
+Необходимо определить, является ли число простым?
 
 Запуск игры:
 
 ## brain-prime
 
-[https://asciinema.org/a/Vd6C7Y29mMlrPEagzuTrPKG4T]
+[![asciicast](https://asciinema.org/a/Vd6C7Y29mMlrPEagzuTrPKG4T.svg)](https://asciinema.org/a/Vd6C7Y29mMlrPEagzuTrPKG4T)
 

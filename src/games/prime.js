@@ -14,14 +14,14 @@ const getPrime = (number) => {
   return true;
 };
   
-const planGame ='Answer "yes" if given number is prime. Otherwise answer "no".';
+const instruction ='Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const beginGame = () => {
+const generateRoundData = () => {
   const number = getRandomNumber(1, 100);
   const answer = getPrime(number) ? 'yes' : 'no';
   return [number, answer];
 };
 
 export default () => {
-  getGame(planGame, beginGame);
+  getGame(instruction, generateRoundData);
 };

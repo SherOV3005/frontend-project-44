@@ -22,7 +22,7 @@ import getRandomNumber from '../getRandom.js';
   const progressionQuestion = getProgression(firstNumber, lengthStep);   
   const answer = progressionQuestion[unkownElement];
   progressionQuestion[unkownElement] = '..';
-  const question = progressionQuestion;
+  const question = progressionQuestion.join(' ');
   return [question, answer];
 };
 

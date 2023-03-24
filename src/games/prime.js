@@ -2,7 +2,7 @@ import getGame from '../index.js';
 
 import getRandomNumber from '../getRandom.js';
 
-const getPrime = (number) => {
+const isPrime = (number) => {
   if (number <= 1) {
     return false;
   }
@@ -16,12 +16,12 @@ const getPrime = (number) => {
 
 const instruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const generateRoundData = () => {
+const startBrainPrime = () => {
   const number = getRandomNumber(1, 100);
-  const answer = getPrime(number) ? 'yes' : 'no';
+  const answer = isPrime(number) ? 'yes' : 'no';
   return [number, answer];
 };
 
 export default () => {
-  getGame(instruction, generateRoundData);
+  getGame(instruction, startBrainPrime);
 };

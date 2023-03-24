@@ -19,7 +19,7 @@ const calculate = (num1, num2, operator) => {
   }
 };
 
-const generateRoundData = () => {
+const startBrainCalc = () => {
   const num1 = getRandomNumber(1, 50);
   const num2 = getRandomNumber(1, 50);
   const index = getRandomNumber(0, operatorArray.length);
@@ -30,5 +30,5 @@ const generateRoundData = () => {
 };
 
 export default () => {
-  getGame(instruction, generateRoundData);
+  getGame(instruction, startBrainCalc);
 };

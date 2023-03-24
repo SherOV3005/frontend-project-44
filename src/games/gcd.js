@@ -24,7 +24,7 @@ const getGCD = (num1, num2) => {
   return GCD;
 };
 
-const generateRoundData = () => {
+const startBrainGcd = () => {
   const num1 = getRandomNumber(1, 50);
   const num2 = getRandomNumber(1, 50);
   const question = `${num1} ${num2}`;
@@ -33,5 +33,5 @@ const generateRoundData = () => {
 };
 
 export default () => {
-  getGame(instruction, generateRoundData);
+  getGame(instruction, startBrainGcd);
 };

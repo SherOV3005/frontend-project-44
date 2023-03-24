@@ -16,11 +16,11 @@ const getProgression = (firstNumber, length, step) => {
   return progression;
 };
 
-const generateRoundData = () => {
+const startBrainProgression = () => {
   const length = getRandomNumber(5, 10);
   const firstNumber = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
-  const unkownElement = getRandomNumber(0, 9);
+  const unkownElement = getRandomNumber(0, length);
   const progressionQuestion = getProgression(firstNumber, length, step);
   const answer = progressionQuestion[unkownElement];
   progressionQuestion[unkownElement] = '..';
@@ -29,5 +29,5 @@ const generateRoundData = () => {
 };
 
 export default () => {
-  getGame(instruction, generateRoundData);
+  getGame(instruction, startBrainProgression);
 };

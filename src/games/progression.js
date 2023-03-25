@@ -1,4 +1,4 @@
-import getGame from '../index.js';
+import runGame from '../index.js';
 
 import getRandomNumber from '../getRandom.js';
 
@@ -21,13 +21,11 @@ const startBrainProgression = () => {
   const firstNumber = getRandomNumber(1, 10);
   const step = getRandomNumber(1, 10);
   const unkownElement = getRandomNumber(0, length);
-  const progressionQuestion = getProgression(firstNumber, length, step);
-  const answer = progressionQuestion[unkownElement];
-  progressionQuestion[unkownElement] = '..';
-  const question = progressionQuestion.join(' ');
+  const progression = getProgression(firstNumber, length, step);
+  const answer = progression[unkownElement];
+  progression[unkownElement] = '..';
+  const question = progression.join(' ');
   return [question, answer];
 };
 
-export default () => {
-  getGame(instruction, startBrainProgression);
-};
+export default () => { runGame(instruction, startBrainProgression); };

@@ -1,4 +1,4 @@
-import getGame from '../index.js';
+import runGame from '../index.js';
 
 import getRandomNumber from '../getRandom.js';
 
@@ -22,6 +22,4 @@ const startBrainPrime = () => {
   return [number, answer];
 };
 
-export default () => {
-  getGame(instruction, startBrainPrime);
-};
+export default () => { runGame(instruction, startBrainPrime); };
